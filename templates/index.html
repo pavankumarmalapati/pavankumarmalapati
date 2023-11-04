@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title> Pavan's Personal site. </title>
+</head>
+<link rel="stylesheet" href="\static\css\Mystyles.css">
+<body>
+    <table cellspacing="25">
+        <tr>
+            <td><img src="https://raw.githubusercontent.com/pavankumarmalapati/My-web-page./main/My%20image.jpg" alt = "Pavankumar Profile Picture. " width="170" height="280"/></td>
+            <br>
+            <h3>How is my project rate from 1 - 10</h3>
+            <form action = "Rate" method="POST">
+                {% for message in get_flashed_messages()%}
+                    <p>{{message}}</p>
+                {%endfor%}
+                <input type = "tex" name = "Rate_input">
+                <br>
+                <input type = "submit" value = "Rate My Project" id ="Rate_My_Project">
+            <td><h1> Pavankumar Malapati </h1>
+                <p><em>Junior <strong>Python & web developer.</strong></em></p>
+                <p> I am a beginner level Python & web developer.</p>
+                <p>Trying to become a <strong>professional fullstack developer in both Python & web desining. </strong></p>
+             </td>
+        </tr>  
+    </table> 
+    <hr> 
+    <h3> Education and Qualification. </h3>
+    <ul>
+        <li> Completed <strong>P.G.D.C.A</strong></li>
+        <li> Completed My Bachelors of Commerce and Computer Applications form <strong>S.V Venkateshwara University, India.</strong></li>
+        <li> Currently pursuing Masters in Information Technology at Concordia Univesrsity, St.Paul, USA.</li>
+    </ul>
+    <hr>
+    <h3> My Hobbies</h3>
+        <ol>
+            <li>I love cooking, love to try different cultural foods. checkout my favorite receipe Here.<a href= " https://youtu.be/_wQ9cTUbH7U">RECEIPE. </a> </a></li>
+            <li>I like Creating New thing, such as like Creating Pictures and adding effects. </li>
+            <li>I like to Learn New Things. My new bootcamp Masterclass <a href=" https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12287450?start=15#questions"> WEB DEVELOPMENT.</a></li>
+        </ol>
+    
+    <hr>
+    <h3> Skills</h3>
+    <table cellspacing="10">
+        <tr>
+            <td>HTML</td>
+            <td>⭐⭐⭐</td>
+            <td>COMMUNICATION </td>
+            <td>⭐⭐⭐⭐</td>  
+        </tr>
+        <tr>
+            <td>PYTHON</td>
+            <td>⭐⭐</td>
+            <td>COOKING</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+    </table>
+</body>
+</html>

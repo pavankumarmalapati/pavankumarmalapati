@@ -1,0 +1,42 @@
+
+body {
+    background-color:#0e9a9f; 
+ }
+hr {
+     border-color: rgb(226, 234, 233);
+     border-style: dotted solid none none;
+     border-width: 5px;
+     width:6%;
+ }
+ p{
+    color:rgb(197, 208, 210);
+    font-family:'Shanti';
+    font-style:italic;
+
+ }
+ input {
+    width: 200px;
+    height: 30px;
+    margin: 20px;
+    border: none;
+    background-color: rgb(84, 232, 237) 220, 226;
+    border-start-end-radius: 10px;
+    font-family:'Shanti';
+    font-size: 1.3em;
+
+ }
+ #Rate_My_Project{
+    background-color: rgb(22, 183, 195);
+    color: rgb(255, 255, 255);
+    width: 200px;
+ }
+ #Rate_My_Project:hover {
+    background-color:rgb(84, 232, 237) 220, 226 ;
+ }
+
+h1 {
+    color:#bac1c1;
+}
+h3 {
+    color:#c6cece;
+}
