@@ -21,7 +21,7 @@ def rate ():
         else:
             flash("OWW!! I did't expect that. Thanks for the " + str(request.form['Rate_input']) + " rating")
     return render_template("index.html")
-
+app.run(host="0.0.0.0", port=80)
    
 
     
